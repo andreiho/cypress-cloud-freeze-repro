@@ -1,0 +1,36 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "target": "es6",
+    "lib": ["es2017", "dom", "dom.iterable", "esnext", "WebWorker"],
+    "rootDirs": ["./", "cypress"],
+    "types": ["cypress", "node"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "jsx": "react-jsx",
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "downlevelIteration": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": false,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": false,
+    "noUnusedLocals": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "sourceMap": false,
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {}
+  },
+  "include": ["cypress.config.ts", "cypress"],
+  "ts-node": {
+    "compilerOptions": {
+      "module": "esnext"
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
